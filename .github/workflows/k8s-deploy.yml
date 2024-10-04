@@ -7,7 +7,7 @@ jobs:
   deploy-static-manifests:
     permissions:
       actions: read
-      content: read
+      contents: read
       id-token: write
     runs-on: ubuntu-latest
     steps:
